@@ -32434,7 +32434,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-1 {
   width: 138px;
   height: 138px;
-  background-image: url("images/MainLogoToken-Recovered.jpg");
+  background-image: url("images/MainLogoToken-Recovered1.jpg");
   background-position: 50% 50%;
   margin: -91px auto 0 0;
 }
@@ -32456,12 +32456,33 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: -91px;
   }
 }
+@media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 139px;
+  }
 
+  .u-header .u-menu-1 {
+    margin-top: 1px;
+  }
+
+  .u-header .u-btn-1 {
+    margin-top: -40px;
+    margin-right: 20px;
+    margin-left: auto;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -96px;
+    margin-bottom: -50px;
+  }
+}
 @media (max-width: 767px) {
   .u-header .u-btn-1 {
-    margin-top: -44px;
     margin-right: 0;
-    margin-left: auto;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -96px;
   }
 }
 @media (max-width: 575px) {
