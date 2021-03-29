@@ -32424,7 +32424,6 @@ a.u-link.u-text-hover-grey-90:hover {
   border-style: none;
   font-weight: 700;
   text-transform: uppercase;
-  background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   font-size: 1.25rem;
   margin: -44px 26px 0 auto;
@@ -32434,60 +32433,79 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-1 {
   width: 138px;
   height: 138px;
-  background-image: url("images/MainLogoToken-Recovered1.jpg");
+  background-image: url("images/MainLogoToken-Recovered.png");
   background-position: 50% 50%;
   margin: -91px auto 0 0;
 }
 @media (max-width: 1199px) {
-  .u-header .u-menu-1 {
-    width: auto;
-    margin-left: 138px;
-  }
-
-  .u-header .u-btn-1 {
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: 138px;
-  }
-
-  .u-header .u-image-1 {
-    width: 138px;
-    height: 138px;
-    margin-top: -91px;
-  }
-}
-@media (max-width: 991px) {
   .u-header .u-sheet-1 {
     min-height: 139px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: 1px;
-  }
-
-  .u-header .u-btn-1 {
-    margin-top: -40px;
-    margin-right: 20px;
+    margin-top: 54px;
     margin-left: auto;
   }
 
+  .u-header .u-nav-1 {
+    font-size: 1.25rem;
+  }
+
+  .u-header .u-btn-1 {
+    font-size: 1.125rem;
+    border-style: solid;
+    align-self: flex-end;
+    margin-top: -40px;
+    margin-right: 14px;
+    padding: 5px 11px 6px 9px;
+  }
+
   .u-header .u-image-1 {
-    margin-top: -96px;
-    margin-bottom: -50px;
+    width: 138px;
+    height: 138px;
+    margin-top: -93px;
+    margin-bottom: 1px;
+  }
+}
+@media (max-width: 991px) {
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-top: 48px;
+    margin-left: 138px;
+  }
+
+  .u-header .u-btn-1 {
+    margin-top: -34px;
+    margin-right: 20px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -93px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-btn-1 {
+    margin-top: -34px;
     margin-right: 0;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: -96px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-menu-1 {
+    margin-top: 52px;
     margin-left: 87px;
+  }
+
+  .u-header .u-btn-1 {
+    margin-right: 0;
+    padding-right: 18px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -97px;
+    margin-bottom: 1px;
+    margin-left: -50px;
   }
 }
 .u-footer {
