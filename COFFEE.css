@@ -39,13 +39,17 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 350px;
+    min-height: 758px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 462px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 220px;
+    min-height: 477px;
   }
 
   .u-section-1 .u-text-1 {
@@ -378,6 +382,7 @@
   }
 
   .u-section-4 .u-text-1 {
+    font-size: 1.875rem;
     margin-right: 0;
   }
 
